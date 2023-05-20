@@ -1,0 +1,33 @@
+.sessionFilter {
+    display: flex;
+    padding: 20px 0px;
+    gap: 15px;
+}
+
+.sessionList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.sessionItem {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+    .sessionItem {
+        width: 100%;
+    }
+}
+
+.sessionItem > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
